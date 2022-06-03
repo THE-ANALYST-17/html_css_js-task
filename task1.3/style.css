@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stars{
+    font-size: 3rem;
+    color:orange;
+    background-color: unset;
+    border: none;
+}
+.stars{
+    cursor: pointer;
+}
+#root{
+    border: 2px solid black;
+    user-select: none;
+    padding:10px
+}
